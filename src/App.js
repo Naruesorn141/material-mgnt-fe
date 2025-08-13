@@ -7,7 +7,19 @@ import ProjectsPage from './pages/ProjectsPage';
 import TransactionsPage from './pages/TransactionsPage';
 import ReportsPage from './pages/ReportsPage';
 
-const theme = createTheme();
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: '#4e54c8',
+    },
+    secondary: {
+      main: '#8f94fb',
+    },
+  },
+  typography: {
+    fontFamily: 'Prompt, sans-serif',
+  },
+});
 
 function App() {
   return (
